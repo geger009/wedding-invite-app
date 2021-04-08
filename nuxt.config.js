@@ -14,7 +14,9 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ballet&display=swap' }
     ]
   },
 
@@ -37,9 +39,25 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/firebase'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  firebase: {
+    config: {
+      apiKey: "AIzaSyDp613e6pkh2QFVD0EEjpbvckiRbgaxLlU",
+      authDomain: "faza-didit.firebaseapp.com",
+      projectId: "faza-didit",
+      storageBucket: "faza-didit.appspot.com",
+      messagingSenderId: "472601893372",
+      appId: "1:472601893372:web:4bd50a1568b17692e2fa79"
+    },
+    services: {
+      firestore: true,
+      storage: true
+    }
   }
 }

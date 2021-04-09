@@ -1,16 +1,21 @@
 <template>
   <div class="hero flex justify-center items-center bg-purple-400 text-white">
-    <div class="hero-text">
-      <h5 class="text-center text-bold font-sans mb-9">UNDANGAN<br />PERNIKAHAN</h5>
-      <h1 class="text-center text-8xl font-ballet antialiased">Faza</h1>
-      <h4 class="text-center mt-4 mb-8 font-serif">dan</h4>
-      <h1 class="text-center text-8xl font-ballet antialiased">Didit</h1>
+    <div class="hero-text px-4">
+      <h5 class="text-center font-pacifico mb-9 text-2xl">Undangan Pernikahan</h5>
+      <h1 class="md:text-8xl text-6xl font-ballet antialiased">Faza</h1>
+      <h4 class="text-center md:text-6xl text-4xl font-ballet pr-2">&</h4>
+      <h1 class="text-right md:text-8xl text-6xl font-ballet antialiased pr-6">Didit</h1>
     </div>
   </div>
 </template>
 
 <style scoped>
 .hero {
+  width: 100%;
+}
+.hero .hero-text {
+  min-width: 300px;
+  max-width: 600px;
   width: 100%;
 }
 </style>

@@ -9,12 +9,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'ballet': ['Ballet', 'sans-serif']
+      'ballet': ['Ballet', 'sans-serif'],
+      'pacifico': ['Pacifico', 'sans-serif'],
+      'montserrat': ['Montserrat', 'sans-serif']
     },
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

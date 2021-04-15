@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full font-montserrat p-4">
+  <div class="w-full font-montserrat p-4 text-white relative">
     <div class="grid grid-cols-4 gap-3 lg:w-1/2 mx-auto">
       <div class="text-center">
         <div class="text-6xl">{{days}}</div>

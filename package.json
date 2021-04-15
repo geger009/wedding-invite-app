@@ -21,8 +21,11 @@
     "autoprefixer": "^9",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "fibers": "^5.0.0",
     "postcss": "^7",
     "prettier": "^2.2.1",
+    "sass": "^1.32.8",
+    "sass-loader": "10",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

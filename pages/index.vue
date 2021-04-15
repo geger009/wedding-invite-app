@@ -1,15 +1,14 @@
 <template>
-  <div style="width: 100%">
-    <hero />
-    <counter class="-mt-14" />
+  <div class="bg-gray-900" style="width: 100%">
+    <Hero />
+    <Counter class="-mt-14" />
+    <Gallery />
+    <Maps />
   </div>
 </template>
 
 <script>
-import Counter from '~/components/Counter.vue'
-import Hero from "~/components/Hero.vue"
 
 export default {
-  components: { Hero, Counter }
 }
 </script>

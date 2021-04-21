@@ -1,9 +1,12 @@
 <template>
   <div class="bg-gray-900" style="width: 100%">
     <Hero />
-    <Counter class="-mt-14" />
-    <Gallery />
+    <Opening class="-mt-14" />
+    <Counter />
     <Maps />
+    <Gallery />
+    <Quotes />
+    <Closing />
   </div>
 </template>
 

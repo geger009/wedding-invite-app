@@ -13,7 +13,8 @@
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "core-js": "^3.9.1",
     "firebase": "^8.3.2",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-flux": "^6.4.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.3",

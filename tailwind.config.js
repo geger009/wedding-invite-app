@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'ballet': ['Ballet', 'sans-serif'],
-      'pacifico': ['Pacifico', 'sans-serif'],
+      'tangerine': ['Tangerine', 'sans-serif'],
       'montserrat': ['Montserrat', 'sans-serif']
     },
     extend: {},

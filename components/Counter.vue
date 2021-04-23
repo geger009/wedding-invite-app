@@ -1,9 +1,5 @@
 <template>
   <div class="w-full font-montserrat p-4 my-10 text-white relative">
-    <div class="text-center mb-6 text-sm underline">
-      Sabtu, 5 Juni 2021
-    </div>
-
     <div class="grid grid-cols-4 gap-3 lg:w-1/2 mx-auto">
       <div class="text-center">
         <div class="text-6xl">{{days}}</div>

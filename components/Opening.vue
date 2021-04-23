@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <div class="mb-10">
+    <div class="mb-4">
       <p class="text-center text-white font-montserrat">
         Maha Suci Allah yang telah menciptakan makhluk Nya berpasang-pasangan. Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan putra-putri kami:
       </p>

@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <h2 class="text-white text-2xl font-montserrat mb-2">{{ title }}</h2>
-    <div class="bg-white text-separator mb-4"></div>
+  <div class="w-full text-center mb-4">
+    <img class="mx-auto" style="height: 50px;" src="~assets/images/golden-frame-top.png" alt="top-frame">
+    <h2 class="text-white text-5xl font-tangerine mt-2 mb-1">{{ title }}</h2>
+    <img class="mx-auto" style="height: 50px;" src="~assets/images/golden-frame-bottom.png" alt="bottom-frame">
   </div>
 </template>
 

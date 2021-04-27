@@ -11,8 +11,11 @@
   "dependencies": {
     "@nuxtjs/firebase": "^7.5.0",
     "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@vue-hero-icons/outline": "^1.7.2",
+    "@vue-hero-icons/solid": "^1.7.2",
     "core-js": "^3.9.1",
     "firebase": "^8.3.2",
+    "howler": "^2.2.1",
     "nuxt": "^2.15.3",
     "vue-flux": "^6.4.0"
   },

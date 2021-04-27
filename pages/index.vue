@@ -1,18 +1,26 @@
 <template>
-  <div class="bg-gray-900" style="width: 100%">
+  <div class="bg-gray-900 bg-image" style="width: 100%">
     <Hero />
-    <Opening class="-mt-14" />
+    <Opening />
     <Couple />
+    <Schedule />
     <Counter />
     <Maps />
     <Gallery />
     <Quotes />
+    <CovidProtocol />
     <Closing />
   </div>
 </template>
 
-<script>
+<style lang="scss" scoped>
+.bg-image {
+  background-repeat: repeat;
+  background-image: url('~assets/images/bg-min.png');
+}
+</style>
 
+<script>
 export default {
 }
 </script>

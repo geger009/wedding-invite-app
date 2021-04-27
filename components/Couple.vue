@@ -13,7 +13,7 @@
         name="Didit Purwanto"
         gender="male"
         fatherName="Bp. Suparno"
-        motherName="Ibu Sami"
+        motherName="Ibu Sarni"
         image="didit-side"
       />
     </div>

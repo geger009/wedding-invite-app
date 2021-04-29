@@ -1,17 +1,23 @@
 <template>
   <div class="bg-gray-900 bg-image" style="width: 100%">
-    <Hero />
-    <Opening />
-    <Couple />
-    <Schedule />
-    <Counter />
-    <Maps />
-    <Gallery />
-    <Quotes />
-    <CovidProtocol />
-    <Closing />
+    <template v-if="openState" >
+      <Hero />
+      <Opening />
+      <Couple />
+      <Schedule />
+      <Counter />
+      <Maps />
+      <Gallery />
+      <Quotes />
+      <CovidProtocol />
+      <Closing />
 
-    <ActionButton class="fixed bottom-3 right-3 z-10" />
+      <ActionButton class="fixed bottom-3 right-3 z-10" />
+    </template>
+
+    <template v-if="!openState">
+      <Cover />
+    </template>
   </div>
 </template>
 
@@ -23,13 +29,30 @@
 </style>
 
 <script>
-import { Howl } from 'howler'
+import { Howl, Howler } from 'howler'
 
 export default {
+  data() {
+    return {
+      audio: null
+    }
+  },
+  computed: {
+    openState: function() {
+      return this.$store.state.config.openStatus
+    }
+  },
+  watch: {
+    openState(newVal, oldValue) {
+      if (newVal == true) {
+        this.audio.play();
+      }
+    }
+  },
   beforeMount() {
-    const music = new Howl({
+    this.audio = null
+    this.audio = new Howl({
       src: ['/Pamungkas_To_The_Bone.mp3'],
-      autoplay: true,
       loop: true
     })
   }

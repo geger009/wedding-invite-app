@@ -6,7 +6,7 @@
     </div>
 
     <div class="text-center font-montserrat">
-      <button class="rounded-full py-2 px-6 bg-yellow-600 text-white mt-6" @click="gotoMaps">
+      <button class="rounded-full py-2 px-6 bg-yellow-400 text-white mt-6" @click="gotoMaps">
         <MapIcon class="text-white mr-2 inline-block" /> Open Google Maps
       </button>
     </div>

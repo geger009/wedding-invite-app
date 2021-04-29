@@ -7,8 +7,8 @@
       <h1 class="md:text-8xl text-6xl font-ballet antialiased">Rofah</h1>
       <h4 class="text-center md:text-6xl text-4xl font-ballet pr-2">&</h4>
       <h1 class="text-right md:text-8xl text-6xl font-ballet antialiased pr-6">Didit</h1>
-      <div class="text-center mt-6 text-sm underline font-montserrat">
-        SABTU, 5 JUNI 2021
+      <div class="text-center mt-6 text-xl font-greatvibes">
+        Sabtu, 5 Juni 2021
       </div>
     </div>
   </div>

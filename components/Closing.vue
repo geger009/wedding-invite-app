@@ -1,11 +1,11 @@
 <template>
   <Section>
     <div class="my-16">
-      <p class="font-tangerine text-5xl text-center text-white -ml-4 mb-4">
-        Mohon Doa Restu
+      <p class="font-greatvibes text-3xl md:text-4xl text-center text-white mb-4">
+        Please Come & Join Us
       </p>
-      <p class="font-ballet text-4xl text-center text-white -ml-4">
-        Terima Kasih
+      <p class="font-greatvibes text-4xl md:text-6xl text-center text-white">
+        Rofah & Didit
       </p>
     </div>
   </Section>

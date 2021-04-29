@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'ballet': ['Ballet', 'sans-serif'],
+      'greatvibes': ['Great Vibes', 'cursive'],
       'tangerine': ['Tangerine', 'sans-serif'],
       'montserrat': ['Montserrat', 'sans-serif']
     },

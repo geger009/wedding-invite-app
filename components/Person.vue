@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full text-center mb-10">
+  <div class="relative w-full text-center my-10">
     <!-- <div
       class="mx-auto aspect-w-1 aspect-h-1"
     >

@@ -1,7 +1,6 @@
 <template>
   <Section>
-    <div class="absolute top-0 left-0 right-0 h-40 bg-gradient-to-b from-gray-900 to-transparent" />
-    <div class="relative z-1">
+    <div class="w-full p-4 mt-10 text-white relative">
       <div class="mb-10">
         <img class="mx-auto" width="300" src="~assets/images/bismillah-white.png" alt="kaligrafi-bismillah" />
       </div>

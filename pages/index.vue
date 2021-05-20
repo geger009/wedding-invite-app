@@ -2,6 +2,7 @@
   <div class="bg-gray-900 bg-image" style="width: 100%">
     <template v-if="openState" >
       <Hero />
+      <Guest :guest="guestName" v-if="guestName !== ''" />
       <Opening />
       <Couple />
       <Schedule />
@@ -30,6 +31,7 @@
 
 <script>
 import { Howl, Howler } from 'howler'
+import { unslugify } from "unslugify"
 
 export default {
   data() {
@@ -40,6 +42,9 @@ export default {
   computed: {
     openState: function() {
       return this.$store.state.config.openStatus
+    },
+    guestName() {
+      return this.$route.query.guest ? unslugify(this.$route.query.guest) : ''
     }
   },
   watch: {
